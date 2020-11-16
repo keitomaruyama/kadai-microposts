@@ -16,3 +16,4 @@ class ApplicationController < ActionController::Base
     @count_followers = user.followers.count
   end
 end
+
